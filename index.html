@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Bilger – Dokumentarfilme & Podcasts</title>
+    <meta name="description" content="Anna Bilger ist Autorin und Regisseurin für Dokumentarfilme und Podcasts mit Schwerpunkt auf Pop-Kultur, Zeitgeschichte, Wissenschaft.">
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; background: #f8f8f8; color: #333; line-height: 1.6; }
+        header { background: #1a1a1a; color: white; text-align: center; padding: 2em 1em; }
+        nav a { color: white; margin: 0 1em; text-decoration: none; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('banner.jpg'); /* Lade dein Banner hoch */ background-size: cover; color: white; text-align: center; padding: 4em 2em; }
+        .bio { max-width: 800px; margin: 0 auto; padding: 2em; }
+        .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em; padding: 2em; max-width: 1200px; margin: 0 auto; }
+        .project { background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; }
+        .project h3 { margin: 1em; color: #1a1a1a; }
+        .project iframe { width: 100%; height: 200px; }
+        footer { background: #1a1a1a; color: white; text-align: center; padding: 1em; }
+        @media (max-width: 768px) { .projects { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anna Bilger</h1>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#bio">Über</a>
+            <a href="#projekte">Projekte</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h2>Autorin und Regisseurin</h2>
+        <p><strong>für Dokumentarfilme und Podcasts</strong><br>mit Schwerpunkt auf Pop-Kultur, Zeitgeschichte, Wissenschaft.</p>
+        <!-- Haupt-Trailer hier, z.B. Platzhalter -->
+        <a href="#projekte" style="color: white; text-decoration: none; background: #ff6b6b; padding: 1em 2em; border-radius: 5px;">Projekte entdecken</a>
+    </section>
+
+    <section id="bio" class="bio">
+        <h2>Über mich</h2>
+        <p>Anna Bilger ist Autorin, Regisseurin und Produzentin für Dokumentarfilme und Podcasts. Mit Fokus auf Pop-Kultur, Zeitgeschichte und Wissenschaft schuf sie u. a. Serien für die ARD-Mediathek. Berlinerin, die Geschichten mit Tiefgang erzählt.</p>
+    </section>
+
+    <section id="projekte" class="projects">
+        <div class="project">
+            <h3>Welcome to Berlin (ARD-Mediathek)</h3>
+            <p>5-teilige Doku-Serie über Neu-Berliner:innen und ihre Abenteuer.</p>
+            <iframe src="https://www.youtube.com/embed/e3VsN4w8T58" title="Welcome to Berlin Trailer" frameborder="0" allowfullscreen></iframe>
+            <p style="padding: 1em;"><a href="https://www.ardmediathek.de" target="_blank">Zur ARD-Mediathek</a></p>
+        </div>
+        <div class="project">
+            <h3>Exit Einsamkeit (ARD-Mediathek)</h3>
+            <p>Doku-Serie über Einsamkeit bei jungen Menschen – nah und authentisch.</p>
+            <iframe src="https://www.youtube.com/embed/hsavV5nIoQg" title="Exit Einsamkeit Trailer" frameborder="0" allowfullscreen></iframe>
+            <p style="padding: 1em;"><a href="https://www.ardmediathek.de" target="_blank">Zur ARD-Mediathek</a></p>
+        </div>
+        <!-- Füge mehr hinzu, z.B. HausGeschichten -->
+    </section>
+
+    <footer id="kontakt">
+        <p>Kontakt: <a href="mailto:anna@studiodrei.de" style="color: #ff6b6b;">anna@bilger.de</a> | <a href="https://annabilger.wordpress.com" target="_blank">Blog</a> | Impressum (Pflicht)</p>
+    </footer>
+</body>
+</html>
